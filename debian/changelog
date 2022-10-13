@@ -1,0 +1,40 @@
+node-is-builtin-module (3.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs auto test & install
+  * Fix copyright
+  * New upstream version 3.0.0
+  * Update test, use tape instead of mocha
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 09 Dec 2020 12:20:42 +0100
+
+node-is-builtin-module (2.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  * New upstream version
+  * Update Vcs fields for migration to https://salsa.debian.org/
+  * Bump standard version
+  * Bump debhelper compat
+  * Enable tests
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Tue, 01 May 2018 22:30:42 +0200
+
+node-is-builtin-module (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #842123)
+
+ -- Sruthi Chandran <srud@disroot.org>  Wed, 26 Oct 2016 10:34:28 +0530
