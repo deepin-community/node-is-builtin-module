@@ -1,3 +1,29 @@
+node-is-builtin-module (3.2.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-is-builtin-module: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 12:25:10 +0000
+
+node-is-builtin-module (3.2.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.6.1
+  * New upstream version 3.2.0 (adds typescript declarations)
+
+ -- Yadd <yadd@debian.org>  Thu, 18 Aug 2022 16:02:35 +0200
+
+node-is-builtin-module (3.1.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * New upstream version 3.1.0
+  * Refresh patch
+
+ -- Yadd <yadd@debian.org>  Thu, 09 Dec 2021 10:47:07 +0100
+
 node-is-builtin-module (3.0.0-1) unstable; urgency=medium
 
   * Team upload
