@@ -1,11 +1,11 @@
 Description: replace ava by tape
 Author: Xavier Guimard <yadd@debian.org>
 Forwarded: not-needed
-Last-Update: 2020-12-08
+Last-Update: 2021-12-09
 
 --- a/test.js
 +++ b/test.js
-@@ -1,8 +1,9 @@
+@@ -1,5 +1,5 @@
 -import test from 'ava';
 -import isBuiltinModule from '.';
 +const test = require('tape');
@@ -13,7 +13,9 @@ Last-Update: 2020-12-08
  
  test('main', t => {
  	t.true(isBuiltinModule('fs'));
- 	t.true(isBuiltinModule('console'));
- 	t.false(isBuiltinModule('unicorn'));
+@@ -28,4 +28,5 @@
+ 	t.false(isBuiltinModule('node:/fs'));
+ 	t.false(isBuiltinModule('file:fs/promises'));
+ 	t.false(isBuiltinModule('data:text/javascript;utf-8,export {default} from "fs";'));
 +	t.end();
  });
